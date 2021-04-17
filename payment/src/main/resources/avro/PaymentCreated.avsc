@@ -1,0 +1,18 @@
+{
+  "type": "record",
+  "name": "CheckoutCreatedEvent",
+  "namespace": "com.Pedro.ecommerce.payment.event",
+  "fields": [
+
+    {
+      "name": "CheckoutCode",
+      "type": ["string"]
+
+    },
+    {
+      "name": "paymentCode",
+      "type": ["string"]
+
+    }
+  ]
+}
